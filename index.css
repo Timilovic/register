@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    color:white;
+}
+
+form{
+    width:50%;
+    margin:60px auto;
+    padding:15px;
+    text-align: center;
+    background-color: rgb(19, 18, 18);
+}
+
+img{
+    height:100%;
+    width:100%;
+}
+
+.img{
+    width:130px;
+    height:130px;
+    margin: auto;
+}
+
+.my-text-custom{
+   color: rgb(212, 212, 25);
+}
+
+
+li{
+    list-style-type:none;
+    border-radius: 4px;
+}
+
+a{
+    width:100%;
+}
+
