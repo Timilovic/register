@@ -36,3 +36,12 @@ a{
     width:100%;
 }
 
+@media screen and (max-width:550px) {
+    .my-custom{
+        width:100% !important;
+        height: 100% !important ;
+        margin: 0 !important; 
+        border-radius:none !important;
+    }
+}
+
