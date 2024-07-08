@@ -53,7 +53,8 @@ a{
         height: 100%  ;
         margin: 0 ; 
         word-wrap: none;
-        border-radius:0px !important;
+        border-radius:none !important;
+        border:none !important;
     }
 }
 
