@@ -4,7 +4,7 @@
 }
 
 form{
-    width:50%;
+    min-width: ;
     margin:60px auto;
     padding:15px;
     text-align: center;
@@ -13,7 +13,7 @@ form{
 }
 
 img{
-    height:100%;
+    height:100%; 
     width:100%;
 }
 
@@ -33,8 +33,18 @@ li{
     border-radius: 4px;
 }
 
+.btn:hover{
+    background-color: yellow !important;
+}
+
 a{
     width:100%;
+}
+
+@media screen and (max-width:778px) {
+    form{
+        min-width: 70%;
+    }
 }
 
 @media screen and (max-width:550px) {
@@ -42,19 +52,10 @@ a{
         background-color: black;
     }
 
-    *{
-        margin-bottom: 20px;
-        font-size:20px;
-    }
-
-    .my-custom{
-        padding-top: 25px !important;
-        width:100% ;
-        height: 100%  ;
-        margin: 0 ; 
-        word-wrap: none;
-        border-radius:none !important;
-        border:none !important;
+    .w-25{
+        min-width: 90% !important;
+        margin: 0 auto !important ;
+        border-radius: 0 !important;
     }
 }
 
