@@ -8,12 +8,12 @@ form{
     padding:15px;
     text-align: center;
     background-color: rgb(19, 18, 18);
-    box-shadow: 2px 3px 4px rgb(66, 65, 65);
 }
 
 img{
     height:100%; 
     width:100%;
+    object-fit: cover;
 }
 
 .img{
@@ -42,7 +42,7 @@ a{
 
 @media screen and (max-width:778px) {
     form{
-        min-width: 70%;
+        min-width: 60%;
     }
 }
 
@@ -52,8 +52,8 @@ a{
     }
 
     .w-25{
-        min-width: 90% !important;
-        margin: 0 auto !important ;
+        min-width: 70% !important;
+        margin: 19px auto !important ;
         border-radius: 0 !important;
     }
 }
